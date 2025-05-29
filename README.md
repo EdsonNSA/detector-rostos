@@ -1,12 +1,12 @@
 # Reconhecimento Facial com Mediapipe
 
-👤 Sistema simples de reconhecimento facial com múltiplos ângulos
+# 👤 Sistema simples de reconhecimento facial com múltiplos ângulos
 
 Este projeto usa Python e Mediapipe para capturar múltiplas poses do rosto de uma pessoa, salvar os vetores dos pontos faciais e depois reconhecer o rosto em tempo real com tolerância para diferentes ângulos e expressões.
 
 ---
 
-🧩 Como Funciona
+# 🧩 Como Funciona
 O usuário digita seu nome e posiciona o rosto em vários ângulos diante da câmera.
 
 Cada pose é capturada e os pontos do rosto são salvos em um arquivo .json com o nome do usuário.
@@ -19,14 +19,14 @@ Caso contrário, aparece como "Desconhecido".
 
 ---
 
-📷 Exemplo de Funcionamento
+# 📷 Exemplo de Funcionamento
 Capture várias poses: frente, direita, esquerda, leve inclinação, etc.
 
 Depois, ao abrir a câmera para reconhecimento, o sistema detecta o rosto mesmo se estiver com ângulos diferentes, exibindo um retângulo verde com seu nome quando reconhecido.
 
 ---
 
-🛠 Requisitos
+# 🛠 Requisitos
 Python 3.7+
 
 OpenCV
@@ -37,7 +37,7 @@ Numpy
 
 ---
 
-Na captura:
+# 📷 captura:
 
 s → Salvar pose atual do rosto
 
@@ -49,14 +49,14 @@ q → Sair da câmera
 
 ---
 
-⚙️ Configurações
+# ⚙️ Configurações
 Ajuste o limite de distância para aumentar ou diminuir a rigidez do reconhecimento.
 
 Capture múltiplas poses para melhorar a robustez ao variar o ângulo do rosto.
 
 ---
 
-💡 Dicas
+# 💡 Dicas
 Quanto mais poses diferentes capturar, melhor o sistema reconhecerá rostos em ângulos variados.
 
 Iluminação consistente ajuda na detecção.
@@ -65,7 +65,7 @@ Pode ser expandido para múltiplos usuários salvando arquivos diferentes por no
 
 ---
 
-🚀 Aplicações
+# 🚀 Aplicações
 Controle de acesso simples com reconhecimento facial.
 
 Sistemas de autenticação pessoal com múltiplas poses.
